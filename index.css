@@ -1,0 +1,379 @@
+.one{
+    border: 1px solid red;
+width: 100px;
+height: 160px;
+margin: 10px;
+border-radius: 5px;
+margin-top: 0px;
+background-color: white;
+color: red;
+padding-top: 3px;
+text-align: center;
+box-shadow: gray 5px 5px 10px;
+font-size: 15px;
+}
+.two{
+    width: 100px;
+height: 160px;
+border: 1px solid red;
+margin: 10px;
+border-radius: 5px;
+margin-top: 0px;
+background-color:white;
+color: red;
+padding-top: 3px;
+text-align: center;
+box-shadow: gray 5px 5px 10px;
+font-size: 15px;
+}
+.three{
+    width: 100px;
+height: 160px;
+border: 1px solid red;
+margin: 10px;
+border-radius: 5px;
+margin-top: 0px;
+background-color:white;
+color: red;
+padding-top: 3px;
+text-align: center;
+box-shadow: gray 5px 5px 10px;
+font-size: 15px;
+
+}
+.three1{
+    margin-left: 250px;
+}
+.four{
+   
+    width: 100px;
+    height: 160px;
+    border: 1px solid red;
+    margin: 10px;
+    border-radius: 5px;
+    margin-top: 0px;
+    background-color:white;
+    color: red;
+    padding-top: 3px;
+    text-align: center;
+    box-shadow: gray 5px 5px 10px;
+    font-size: 15px;
+}
+.five{
+    
+    width: 100px;
+    height: 160px;
+    border: 1px solid red;
+    margin: 10px;
+    border-radius: 5px;
+    margin-top: 0px;
+    background-color:white;
+    color: red;
+    padding-top: 3px;
+    text-align: center;
+    box-shadow: gray 5px 5px 10px;
+    font-size: 15px;
+}
+.six{
+    
+    width: 100px;
+    height: 160px;
+    border: 1px solid red;
+    margin: 10px;
+    border-radius: 5px;
+    margin-top: 0px;
+    background-color:white;
+    color: red;
+    padding-top: 3px;
+    text-align: center;
+    box-shadow: gray 5px 5px 10px;
+    font-size: 15px;
+}
+.seven{
+  
+    width: 100px;
+    height: 160px;
+    border: 1px solid red;
+    margin: 10px;
+    border-radius: 5px;
+    margin-top: 0px;
+    background-color:white;
+    color: red;
+    padding-top: 3px;
+    text-align: center;
+    box-shadow: gray 5px 5px 10px;
+    font-size: 15px;
+}
+.parent{
+    display: flex;
+    padding-left: 100px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-right: 10px;
+
+   
+}
+p{
+    text-decoration: line-through;
+    color:red;
+    text-align: center;
+}
+i{
+     margin-left:150px;
+     background-color:red ;
+     border-radius: 10px;
+     
+}
+ .b1{
+     font-size: 45px;
+     margin-left: 100px;
+  
+    color: black;
+    
+}
+.b2{
+    font-size: 40px; 
+    font-family:'Courier New', Courier, monospace;
+    font-weight: -100;
+    color: gray;
+    font-family: 'Poiret One', cursive;
+}
+.pravin1{
+    height: 120px;
+    width: 200px;
+    border:red solid 2px;
+    margin-left: 100px;
+   background-color: white;
+   position: absolute;
+   left:80px;
+   top: 80px;
+   border-radius: 10x;
+   box-shadow: gray 5px 5px 10px;
+   text-align: center;
+   
+
+}
+.parent1{
+    position: absolute;
+    filter: blur(6px);
+}
+form{
+    
+    padding: 10px;
+    color: tomato;
+  
+  
+}
+ input{
+    /* width: 100px; */
+    height: 10px;
+    font-size: 8px;
+
+} 
+button{
+    border: none;
+    background-color: rgb(240, 90, 45);
+    color: white;
+    border-radius: 10px;
+    width:46px;
+    margin: 5px;
+    
+}
+.one:hover{
+    background-color: rgba(192, 192, 192, 0.774);
+}
+
+h1 {
+    font-family: sans-serif;
+    margin: 20px 20px;
+    color: black;
+    text-align: center;
+    font-size: 26px;
+    max-width: 600px;
+    position: relative;
+  }
+  
+  h1:before {
+    content: "";
+    display: block;
+    width: 173px;
+    height: 2px;
+    background: #000;
+    left: 0;
+    top: 50%;
+    position: absolute;
+  }
+  
+  h1:after {
+    content: "";
+    display: block;
+    width: 173px;
+    height: 2px;
+    background: #000;
+    right: 0;
+    top: 50%;
+    position: absolute;
+  }
+  label{
+      color: black;
+  }
+  hr{
+      margin-left: 24px;
+  }
+  .new{
+      margin-top: 40px;
+      margin-bottom: 30px;
+     
+  }
+  .mobile1{
+      filter: blur(4px);
+  }
+  /* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* STYLES GO HERE */
+.parent{
+          flex-direction: column;
+          padding-left: 0px;
+          
+      }
+    .one{
+          height: 40px;
+          width: 100%;
+          overflow: hidden;
+          margin-left: 0px;
+          margin-bottom: 15px;
+          color: black;
+          padding-top: 15px;
+          }
+    .two{
+        height: 40px;
+        width: 100%;
+        overflow: hidden;
+        margin-left: 0px;
+        margin-bottom: 15px;
+        color: black;
+        padding-top: 15px;
+    }
+    .three{
+        height: 40px;
+        width: 100%;
+        overflow: hidden;
+         margin-left: 0px; 
+         margin-bottom: 15px;
+         color: black;
+         padding-top: 15px;
+    }
+    .four{
+     
+        height: 40px;
+        width: 100%;
+        overflow: hidden;
+         margin-left: 0px; 
+         margin-bottom: 15px;
+         color: black;
+         padding-top: 15px;
+    }
+    .five{
+      
+        height: 40px;
+        width: 100%;
+        overflow: hidden;
+         margin-left: 0px; 
+         margin-bottom: 15px;
+         color: black;
+         padding-top: 15px;
+    }
+    .six{
+      
+        height: 40px;
+        width: 100%;
+        overflow: hidden;
+         margin-left: 0px; 
+         margin-bottom: 15px;
+         color: black;
+         padding-top: 15px;
+    }
+    .seven{
+      
+        height: 40px;
+        width: 100%;
+        overflow: hidden;
+         margin-left: 0px; 
+         margin-bottom: 15px;
+         color: black;
+         padding-top: 15px;
+    }
+    i{
+        margin-left: 19px;
+        font-size: 30px;
+        border-radius: 20px;
+    }
+    .b1{
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    .b2{
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    hr{
+        visibility: hidden;
+    }
+    h1:before{
+        visibility: hidden;
+        
+    }
+    h1:after{
+        visibility: hidden;
+    }
+    h1{
+        position: absolute;
+        left:55px;
+        margin:0px;
+        font-size: 45px;
+    }
+    #new3{
+        border: 1px solid red;
+        width: 85%;
+        height: 440px;
+        margin: 20px;
+        border-radius: 5px;
+        margin-top: 65px;
+        background-color: white;
+        color: red;
+        padding-top: 3px;
+        text-align: center;
+        box-shadow: gray 5px 5px 10px;
+        font-size: 50px;
+       
+    }
+    #new3 hr{
+        visibility: visible;
+    }
+    section{
+        margin-left: -290px;
+        margin-top: 25px;
+    }
+   #new3 i{
+       margin-top: 13px;
+   }
+  .mobile{
+      filter: blur(5px);
+  }
+      .pravin1{
+        margin-left: -50px;
+        margin-top: 130px;
+        height: 163px;
+        width: 299px;
+        border-radius: 10px;
+      }
+      .mobile1{
+          filter: blur(8px);
+      }
+      input{
+          height: 38px;
+      }
+      
+  }
